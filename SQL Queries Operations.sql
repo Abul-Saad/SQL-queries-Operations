@@ -1,15 +1,12 @@
 create database developer;
-use collage;
+
 CREATE TABLE full_stack_dev(
-
-fsd_id INT PRIMARY KEY,
-fsd_Name VARCHAR(150),
-fsd_salary decimal(10,2),
-fsd_Bonus decimal(10,2),
-fsd_tax decimal(10,2),
-fsd_hour_work varchar(20)
-
-
+       fsd_id INT PRIMARY KEY,
+       fsd_Name VARCHAR(150),
+       fsd_salary decimal(10,2),
+       fsd_Bonus decimal(10,2),
+       fsd_tax decimal(10,2),
+       fsd_hour_work varchar(20)
 );
 
 ALTER TABLE full_stack_dev ADD(fsd_hour_work VARCHAR(10));
